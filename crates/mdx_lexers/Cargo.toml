@@ -1,0 +1,12 @@
+[package]
+name = "mdx_lexers"
+version = "0.0.1"
+authors = ["Ivan Rodriguez"]
+description = """
+MDX lexers that output HAST to code highlight
+"""
+homepage = "https://github.com/IvanRodriCalleja/mdx-rs-highlighter/blob/main/crates/mdx_highlighter/README.md"
+repository = "https://github.com/IvanRodriCalleja/mdx-rs-highlighter"
+readme = "README.md"
+license = "MIT"
+edition = "2021"

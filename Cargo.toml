@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "crates/mdx_highlighter",
+  "crates/mdx_lexers",
+  "crates/mdxjs_fork"
+]

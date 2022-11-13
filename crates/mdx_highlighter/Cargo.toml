@@ -1,0 +1,12 @@
+[package]
+name = "mdx_highlighter"
+version = "0.0.1"
+authors = ["Ivan Rodriguez"]
+description = """
+MDX Syntax highlighter written in rust
+"""
+homepage = "https://github.com/IvanRodriCalleja/mdx-rs-highlighter/blob/main/crates/mdx_highlighter/README.md"
+repository = "https://github.com/IvanRodriCalleja/mdx-rs-highlighter"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
