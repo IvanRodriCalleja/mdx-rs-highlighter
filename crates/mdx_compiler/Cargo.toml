@@ -1,0 +1,20 @@
+[package]
+name = "mdxjs_compiler"
+version = "0.0.1"
+authors = ["Ivan Rodriguez"]
+description = """
+Syntax highlighting in Rust
+"""
+homepage = "https://github.com/ahmadrosid/hl/tree/master/crates/core"
+repository = "https://github.com/ahmadrosid/hl/tree/master/crates/core"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+markdown = "1.0.0-alpha.3"
+mdxjs = { path = "../mdxjs_fork" }
+mdx_highlighter = { path = "../mdx_highlighter" }
+
+[dev-dependencies]
+pretty_assertions = "1"
