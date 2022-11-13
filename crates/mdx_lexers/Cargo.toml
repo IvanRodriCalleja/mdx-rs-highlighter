@@ -10,3 +10,6 @@ repository = "https://github.com/IvanRodriCalleja/mdx-rs-highlighter"
 readme = "README.md"
 license = "MIT"
 edition = "2021"
+
+[dependencies]
+mdxjs = { path = "../mdxjs_fork" }

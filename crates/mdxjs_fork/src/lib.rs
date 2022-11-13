@@ -13,8 +13,8 @@
 
 extern crate markdown;
 mod configuration;
-mod hast;
-pub mod hast_util_to_swc; //EDITED FROM FORK
+pub mod hast; //EDITED FROM FORK
+mod hast_util_to_swc;
 mod mdast_util_to_hast;
 mod mdx_plugin_recma_document;
 mod mdx_plugin_recma_jsx_rewrite;

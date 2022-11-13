@@ -1,0 +1,11 @@
+pub const CODE_CLASS_NAME: &str = "hl";
+pub const LINE_CLASS_NAME: &str = "hl-l";
+pub const ENTITY_CLASS_NAME: &str = "hl-en";
+pub const ENTITY_TAG_CLASS_NAME: &str = "hl-ent";
+pub const CONSTANT_CLASS_NAME: &str = "hl-c"; //This is used for constant and Int
+pub const STRING_CLASS_NAME: &str = "hl-s";
+pub const KEYWORD_CLASS_NAME: &str = "hl-k";
+pub const COMMENT_CLASS_NAME: &str = "hl-cmt";
+pub const VAR_CLASS_NAME: &str = "hl-v";
+pub const DATA_LINE_NUMBER_ATTR: &str = "data-line-number";
+pub const DATA_LINE_NUMBERS_ATTR: &str = "data-line-numbers";
